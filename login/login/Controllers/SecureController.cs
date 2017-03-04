@@ -9,6 +9,7 @@ namespace login.Controllers
     public class SecureController : Controller
     {
         // GET: Secure
+        [Route("Secret")][Authorize]  /*Атрибуты*/
         public ActionResult Securepage()
         {
             return View();
