@@ -7,7 +7,8 @@ namespace login.Models
 {
     public class AuthorizationModel
     {
-        public string login { get; set; }  //Свойство — способ доступа к внутреннему состоянию объекта,
+        public string login { get; set; }  // get; set; - определение свойства
+                                           //Свойство — способ доступа к внутреннему состоянию объекта,
                                            //имитирующий переменную некоторого типа. 
         public string password { get; set; }
 

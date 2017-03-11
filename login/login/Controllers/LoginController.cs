@@ -23,7 +23,7 @@ namespace login.Controllers
         {
             if (model.login == "user")
                 { 
-            FormsAuthentication.SetAuthCookie(model.login, true);
+            FormsAuthentication.SetAuthCookie(model.login, true); // cookie
             return RedirectToAction("Securepage", "Secure");
                 }
 
